@@ -72,3 +72,23 @@ ul {
     opacity: 0.9;
 }
 
+.showcase {
+    width: 100%;
+    height: 400px;
+    background: url('https://i.ibb.co/zGSDGCL/slide1.png') no-repeat center center/cover;
+    display: flex;/*make the items inside horizontal*/
+    flex-direction: column;/*made the items inside vertical*/
+    align-items: center;/*all items to the center*/
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.showcase h2, .showcase p {
+    margin-bottom: 10px;
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
