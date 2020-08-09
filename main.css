@@ -51,7 +51,24 @@ ul {
 .main-nav ul li a:hover {
     border-bottom: 2px solid #262626;
 }
+
 .main-nav  ul.main-menu {
     flex: 1; /*pushed the navbar next to the logo*/
     margin-left: 20px; /*pulled the navbar 20px from the logo*/
 }
+
+.btn { /*utility class*/
+    cursor: pointer;
+    display: inline-block;/*so that it can stick it it's own space*/
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: white;
+    font-size: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
