@@ -178,3 +178,13 @@ ul {
 .follow * {
     margin: 10px;
 }
+
+/* LINKS */
+
+.links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 13px;
+    padding: 35px 0;
+}
+
