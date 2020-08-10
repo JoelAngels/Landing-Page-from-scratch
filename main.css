@@ -23,6 +23,7 @@ ul {
     margin: auto;
 }
 /*NAVBAR*/
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -92,3 +93,4 @@ ul {
 .showcase .btn {
     margin-top: 20px;
 }
+
