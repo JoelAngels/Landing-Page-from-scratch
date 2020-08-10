@@ -241,3 +241,43 @@ footer {
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 700px) {
+    .home-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .xbox .content p {
+        display: none;
+    }
+    .xbox .content h2 {
+        margin-bottom: 20px;
+    }
+    .carbon .content {
+        width: 85%;
+    }
+    .links .links-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .home-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .xbox .content p {
+        display: none;
+    }
+    .xbox .content h2 {
+        margin-bottom: 20px;
+    }
+    .carbon .content {
+        width: 85%;
+    }
+    .links .links-inner {
+        grid-template-columns:1;
+    }
+    .links .links-inner {
+        margin-bottom: 20px;
+    }
+  }
